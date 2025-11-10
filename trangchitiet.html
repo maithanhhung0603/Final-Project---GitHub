@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <!-- Link đến Font Awesome để có thể sử dụng icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="trangchitiet.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="logo1">
+                <img src="image/Remove-bg.ai_1727508861808.png" alt="">
+            </div>
+            <!-- <h1 class="logo">Shop Quần Áo Thời Trang</h1> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                    <li><a href="#"><i class="fas fa-tshirt"></i> Sản phẩm</a>
+                    <ul>
+                        <li><a href="">Áo Polo</a></li>
+                        <li><a href="">Áo khoác nam</a></li>
+                        <li><a href="">Áo khoác nữ</a></li>
+                        <li><a href="">Quần Tây nam</a></li>
+                        <li><a href="">Váy</a></li>
+                        <li><a href="">Giày</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#"><i class="fas fa-phone-alt"></i> Liên hệ</a></li>
+                    <li><a href="#"><i class="fas fa-info-circle"></i> Giới thiệu</a></li>
+                    <li><a href="giohang.css"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</a></li>
+                    <li><a href="dangnhap.html"><i class="fa-solid fa-user-plus"></i> Đăng Nhập</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="product-detail-container">
+        <div class="product-detail">
+            <!-- Hình ảnh sản phẩm -->
+            <div class="product-image">
+                <iframe src="https://albumizr.com/a/BqdK" scrolling="no" frameborder="0" allowfullscreen width="700" height="600"></iframe>
+            </div>
+
+            <!-- Thông tin sản phẩm -->
+            <div class="product-info">
+                <h2>Áo Polo Teelab Essential Unisex Form Oversize Local Brand AP004</h2>
+                <div class="star-rating">
+                    <i class="fas fa-star" data-rating="1"></i>
+                    <i class="fas fa-star" data-rating="2"></i>
+                    <i class="fas fa-star" data-rating="3"></i>
+                    <i class="fas fa-star" data-rating="4"></i>
+                    <i class="fas fa-star" data-rating="5"></i>
+                    <p>(100 luot mua)</p>
+                </div>
+                <p class="price">Giá: 500,000 VND</p>
+                <p class="description">
+                    Áo khoác nam thời trang với chất liệu cao cấp, mang lại sự thoải mái và phong cách cho người mặc.
+                    Phù hợp với nhiều loại trang phục khác nhau, thích hợp cho cả mùa đông và mùa thu.
+                </p>
+                <!-- Kích cỡ sản phẩm -->
+                <label for="size">Chọn kích cỡ:</label>
+                <select id="size">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+
+                <!-- Số lượng -->
+                <label for="quantity">Số lượng:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1">
+
+                <!-- Nút chức năng -->
+                <div class="buttons">
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                    <button class="buy-now"><a href="giohang.html"></a>Mua ngay</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phần gợi ý sản phẩm -->
+        <section class="product-suggestions">
+            <h2>Sản phẩm gợi ý</h2>
+            <hr>
+            <div class="suggested-products">
+                <!-- Sản phẩm 1 -->
+                <div class="suggested-product-item">
+                    <img src="image/sp2.jpg" alt="Áo thun nam">
+                    <h3>Áo khoác nữ</h3>
+                    <p>Giá: 300,000 VND</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+                <!-- Sản phẩm 2 -->
+                <div class="suggested-product-item">
+                    <img src="image/sp3.jpg" alt="Quần jean nam">
+                    <h3>Quần jean nam</h3>
+                    <p>Giá: 400,000 VND</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+                <!-- Sản phẩm 3 -->
+                <div class="suggested-product-item">
+                    <img src="image/sp4.jpg" alt="Giày thể thao nam">
+                    <h3>Váy nữ</h3>
+                    <p>Giá: 700,000 VND</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+
+                <div class="suggested-product-item">
+                    <img src="image/sp12.jpg" alt="Giày thể thao nam">
+                    <h3>Áo phông nam</h3>
+                    <p>Giá: 700,000 VND</p>
+                    <button>Thêm vào giỏ</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Phần Theo dõi chúng tôi tại -->
+            <div class="footer-section">
+                <h3>THEO DÕI CHÚNG TÔI TẠI</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+    
+            <!-- Phần Chính sách khách hàng -->
+            <div class="footer-section">
+                <h3>CHÍNH SÁCH KHÁCH HÀNG</h3>
+                <ul>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách bảo hành</a></li>
+                    <li><a href="#">Chính sách giao hàng</a></li>
+                </ul>
+            </div>
+    
+            <!-- Phần Về chúng tôi -->
+            <div class="footer-section">
+                <h3>VỀ CHÚNG TÔI</h3>
+                <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Shop quần áo thời trang. All rights reserved.</p>
+    </footer>
+    
+
+</body>
+</html>
